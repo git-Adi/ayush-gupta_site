@@ -1,0 +1,8 @@
+/* Education Page Styles */
+.education-main {
+    padding-top: 80px;
+    background: linear-gradient(135deg, #f6f9fc 0%, #e9ecef 100%);
+    min-height: 100vh;
+}
+
+// ... existing code ...

@@ -1,0 +1,45 @@
+/* Base styles and variables */
+:root {
+    --bg-color: #f9f9f9;
+    --text-color: #333;
+    --nav-bg: #333;
+    --card-bg: #fff;
+    --footer-bg: #2c3e50;
+    --link-color: #3498db;
+    --shadow-color: rgba(0,0,0,0.1);
+    --nav-text: #ffffff;
+    --nav-link-color: #ffffff;
+    --heading-color: #ffffff;
+    --header-border: #000000;
+    --spacing-large: 3rem;    /* Reduced from 4rem */
+    --spacing-medium: 1.5rem; /* Reduced from 2rem */
+    --spacing-small: 0.8rem;  /* Reduced from 1rem */
+}
+
+[data-theme="dark"] {
+    --bg-color: #1a1a1a;
+    --text-color: #f9f9f9;
+    --nav-bg: #ffffff;
+    --card-bg: #2c2c2c;
+    --footer-bg: #1a1a1a;
+    --link-color: #5dade2;
+    --shadow-color: rgba(0,0,0,0.3);
+    --nav-text: #333;
+    --nav-link-color: #333;
+    --heading-color: #333;
+}
+
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
